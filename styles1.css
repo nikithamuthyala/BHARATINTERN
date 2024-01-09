@@ -1,0 +1,99 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set text color */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: rgb(135, 193, 222);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the about section */
+#about {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the skills section */
+#skills {
+    text-align: center;
+    padding: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    display: inline;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: rgb(135, 193, 222);
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Style the projects section */
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    max-width: 100%;
+}
+
+/* Style the resume section */
+#resume {
+    text-align: center;
+    padding: 20px;
+}
+
+#resume a {
+    text-decoration: none;
+    color: coral;
+}
+
+/* Style the contact section */
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: rgb(135, 193, 222);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add additional styling as needed */
+.one {
+ padding: 20px;
+ font-style: normal;
+}
+
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
